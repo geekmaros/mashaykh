@@ -1,0 +1,6 @@
+**** MVP ****
+1. display scholars
+2. display scholars details
+3. users should login with firebase google auth
+4. google maps to load scholar maps
+

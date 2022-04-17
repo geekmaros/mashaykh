@@ -7,9 +7,14 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#6B59CC",
+        dark: "#c38fff",
+      },
+    },
   },
   variants: {
     extend: {},
